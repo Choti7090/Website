@@ -1,0 +1,15 @@
+body
+{ 
+    background-image: url('./tree.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.logo
+{
+    display:flex;
+margin-top: 100px;
+background-color:rgba(0, 0, 255, 0.145);
+}
+.logo img{
+    margin-left: 200px;
+}

@@ -1,0 +1,104 @@
+.navbar
+{
+    display: flex;
+background-color: rgb(54, 53, 56);
+justify-content: space-around;
+align-items: center;
+height: 50px;
+}
+*
+{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.navbar select{
+    border: none;
+    background-color: rgb(54, 53, 56);
+color: gainsboro;
+}
+.navbar input{
+    height: 25px;
+    width: 450px;
+    transform: translate(-160px);
+    border: none;
+    border-radius: 3px;
+}
+.city>button{
+    background-color: rgb(204, 30, 64);
+    border-radius: 3px;
+    border: none;
+    color:gainsboro;
+    padding: 3px 7px;
+
+}
+.navlink{  
+    background-color: rgb(31, 37, 57);
+    display: flex;
+justify-content:space-around;
+align-items: center;
+height: 30px;
+}
+.navlink a{
+    color:gainsboro;
+    text-decoration: none;
+    padding: 0px 11px;
+    font-size: 14px;
+    margin: 6px 3px;
+} 
+sup{
+    color: crimson;
+    font-weight: 700;
+}
+.content1{
+    background-color:whitesmoke;
+}
+.content1 img{
+    margin: 10px 3px;
+    height: 260px;
+    border-radius: 8px;
+    
+}
+.content2{
+margin: 30px 0px 2px 0px;
+    display: flex;
+justify-content: space-between;
+padding: 0px 52px;
+}
+.content2 a{
+    color: rgb(171, 22, 22);
+    text-decoration: none;
+}
+.content3{
+    display: flex;
+        justify-content:space-evenly;
+    transform: translate(-10px);
+
+}
+.section>img{
+    height: 350px;
+    width: 200px;
+    border-radius: 10px;
+    /* padding: 0px 3px; */
+
+}
+.section>img:hover{
+    transform: translateY(0px);
+    transition: 1s;
+}
+.section h3{
+    font-size: 15px;
+}
+.section{
+    height: 350px;
+    width: 170px;
+}
+#icon{
+    height: 15px;
+    transform: translateX(-175px);
+    z-index: 1;
+    position: relative;
+    top: 4px;
+}
+.search input::placeholder{
+    transform: translateX(20px);
+}
